@@ -1,0 +1,1 @@
+print(format(14, '020b'))
