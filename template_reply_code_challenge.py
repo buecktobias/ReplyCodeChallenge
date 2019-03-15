@@ -30,7 +30,7 @@ results = []
 
 output_list = []
 for i in range(len(results)):
-    output_list.append("".join(f"Case #{i+1}:{results[i]} \n"))  # Case #1: result ...
+    output_list.append("".join(f"Case #{i+1}: {results[i]} \n"))  # Case #1: result ...
 output = "".join(output_list)
 
 # OUTPUT
